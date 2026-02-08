@@ -1,0 +1,29 @@
+# Formularz treści strony (krok 2)
+
+## Instrukcja
+Wypełnij pola poniżej. Przykładowe treści są podane po `np.`.
+
+Nazwa marki: (np. Sprachnest und mehr)
+Slogan: (np. ein W.E.G. für alle)
+Główne hasło (H1): (np. Twoja przestrzeń nauki języka i rozwoju)
+Opis sekcji głównej: (np. Kameralne kursy języka niemieckiego na wszystkich poziomach, konwersacje, coaching i mentoring.)
+
+Opis sekcji „O nas”: (np. Tworzymy bezpieczną i wspierającą przestrzeń do nauki języka, rozwoju osobistego i budowania pewności siebie.)
+
+Oferta (punkt po punkcie):
+1. (np. Kursy języka niemieckiego – od A1 do C1, online i stacjonarnie)
+2. (np. Konwersacje – praktyczne spotkania przełamujące barierę mówienia)
+3. (np. Rozwój osobisty i duchowy – praca nad kierunkiem i motywacją)
+4. (np. Przestrzeń dla kobiet – kręgi kobiet i spotkania wspierające)
+5. (np. Coaching i mentoring – indywidualne wsparcie w realizacji celów)
+6. (np. Techniki relaksacyjne i taniec – więcej spokoju i równowagi)
+
+Email kontaktowy: (np. kontakt@sprachnest.de)
+Telefon: (np. +49 123 456 789)
+Link do Facebooka: (np. https://facebook.com/sprachnest)
+Link do WhatsApp: (np. https://wa.me/49123456789)
+
+## Opcjonalnie (dla wersji dwujęzycznej PL/DE)
+Hasło DE (H1): (np. Dein Raum für Sprache und persönliche Entwicklung)
+Opis główny DE: (np. Deutschkurse auf allen Niveaus, Konversation, Coaching und Mentoring.)
+Opis „O nas” DE: (np. Wir schaffen einen sicheren und unterstützenden Raum für Sprache und persönliche Entwicklung.)

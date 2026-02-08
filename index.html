@@ -37,7 +37,7 @@
             <a href="#o-nas" data-pl="O nas" data-de="Über uns">O nas</a>
             <a href="#oferta" data-pl="Oferta" data-de="Angebot">Oferta</a>
             <a href="#kontakt" data-pl="Kontakt" data-de="Kontakt">Kontakt</a>
-            <a href="#impressum" data-pl="Impressum" data-de="Impressum">Impressum</a>
+            <button class="menu-link" type="button" data-open-impressum data-pl="Impressum" data-de="Impressum">Impressum</button>
           </div>
           <div class="lang-switch" aria-label="Wybór języka / Sprachauswahl">
             <button class="lang-btn active" data-lang="pl">PL</button>
@@ -215,7 +215,7 @@
           </div>
         </div>
       </section>
-      <section class="section container impressum" id="impressum">
+      <section class="section container impressum" id="impressum" hidden>
         <h2 data-pl="Impressum" data-de="Impressum">Impressum</h2>
         <p class="impressum-line" data-pl="Dane zgodnie z § 5 TMG" data-de="Angaben gemäß § 5 TMG">Dane zgodnie z § 5 TMG</p>
         <p class="impressum-line">Muster Beispiel</p>
@@ -248,6 +248,38 @@
     <footer class="footer">
       <p>© <span id="year"></span> Sprachnest und mehr</p>
     </footer>
+
+    <div class="modal" id="impressumModal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal__backdrop" data-close-impressum></div>
+      <div class="modal__content" role="document">
+        <button class="modal__close" type="button" data-close-impressum aria-label="Zamknij">×</button>
+        <h2 data-pl="Impressum" data-de="Impressum">Impressum</h2>
+        <p class="impressum-line" data-pl="Dane zgodnie z § 5 TMG" data-de="Angaben gemäß § 5 TMG">Dane zgodnie z § 5 TMG</p>
+        <p class="impressum-line">Muster Beispiel</p>
+        <p class="impressum-line">Musterstraße 10</p>
+        <p class="impressum-line">12345 Musterstadt</p>
+        <p class="impressum-line" data-pl="Niemcy" data-de="Deutschland">Niemcy</p>
+
+        <p class="impressum-line"><strong>E-Mail:</strong> muster@muster.pl</p>
+        <p class="impressum-line"><strong data-pl="Telefon:" data-de="Telefon:">Telefon:</strong> +49 000 000 000</p>
+        <p class="impressum-line"><strong data-pl="Forma prawna:" data-de="Rechtsform:">Forma prawna:</strong> Freiberufler</p>
+        <p class="impressum-line"><strong data-pl="Numer podatkowy:" data-de="Steuernummer:">Numer podatkowy:</strong> 00/000/00000</p>
+
+        <p class="impressum-line" data-pl="Zgodnie z § 19 UStG nie jest naliczany podatek VAT (Kleinunternehmerregelung)." data-de="Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung).">Zgodnie z § 19 UStG nie jest naliczany podatek VAT (Kleinunternehmerregelung).</p>
+
+        <h3 data-pl="Wyłączenie odpowiedzialności" data-de="Haftungsausschluss">Wyłączenie odpowiedzialności</h3>
+        <p data-pl="Treści tej strony zostały przygotowane z najwyższą starannością. Nie gwarantujemy jednak poprawności, kompletności ani aktualności informacji." data-de="Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen wir jedoch keine Gewähr.">Treści tej strony zostały przygotowane z najwyższą starannością. Nie gwarantujemy jednak poprawności, kompletności ani aktualności informacji.</p>
+
+        <h3 data-pl="Odpowiedzialność za linki" data-de="Haftung für Links">Odpowiedzialność za linki</h3>
+        <p data-pl="Strona może zawierać linki do zewnętrznych witryn, na których treść nie mamy wpływu. Za treści zewnętrzne nie ponosimy odpowiedzialności." data-de="Diese Website enthält ggf. Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte wird keine Gewähr übernommen.">Strona może zawierać linki do zewnętrznych witryn, na których treść nie mamy wpływu. Za treści zewnętrzne nie ponosimy odpowiedzialności.</p>
+
+        <h3 data-pl="Prawa autorskie" data-de="Urheberrecht">Prawa autorskie</h3>
+        <p data-pl="Treści i materiały stworzone przez operatora tej strony podlegają niemieckiemu prawu autorskiemu." data-de="Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.">Treści i materiały stworzone przez operatora tej strony podlegają niemieckiemu prawu autorskiemu.</p>
+
+        <h3 data-pl="Ochrona danych" data-de="Datenschutz">Ochrona danych</h3>
+        <p data-pl="Ta strona nie zapisuje danych osobowych. Przy kontakcie e-mail dane są wykorzystywane wyłącznie do obsługi zapytania." data-de="Diese Website speichert keine personenbezogenen Daten. Bei Kontaktaufnahme per E-Mail werden die übermittelten Daten ausschließlich zur Bearbeitung der Anfrage verwendet.">Ta strona nie zapisuje danych osobowych. Przy kontakcie e-mail dane są wykorzystywane wyłącznie do obsługi zapytania.</p>
+      </div>
+    </div>
 
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
@@ -285,6 +317,22 @@
           });
         });
       }
+
+      const impressumModal = document.getElementById('impressumModal');
+      const openImpressum = document.querySelectorAll('[data-open-impressum]');
+      const closeImpressum = document.querySelectorAll('[data-close-impressum]');
+
+      function setImpressum(open) {
+        if (!impressumModal) return;
+        impressumModal.classList.toggle('modal--open', open);
+        impressumModal.setAttribute('aria-hidden', String(!open));
+      }
+
+      openImpressum.forEach((btn) => btn.addEventListener('click', () => setImpressum(true)));
+      closeImpressum.forEach((btn) => btn.addEventListener('click', () => setImpressum(false)));
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') setImpressum(false);
+      });
     </script>
   </body>
 </html>

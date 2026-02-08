@@ -1,0 +1,109 @@
+﻿# Formularz treści strony (Sprachnest und mehr)
+
+## Instrukcja
+Wypełnij pola poniżej. Przykładowe treści są podane po `np.`.
+Jeśli nie masz wersji DE, zostaw puste.
+
+Nazwa marki: (np. Sprachnest und mehr)
+Slogan: (np. ein W.E.G. für alle)
+Główne hasło (H1): (np. Twoja przestrzeń nauki języka i rozwoju)
+Opis sekcji głównej (lead): (np. Kameralne kursy języka niemieckiego na wszystkich poziomach, konwersacje, coaching i mentoring.)
+
+Opis sekcji „O nas” – akapit 1:
+(np. Tworzymy bezpieczną i wspierającą przestrzeń dla osób, które chcą rozwijać język niemiecki, pewność siebie i kompetencje komunikacyjne.)
+
+Opis sekcji „O nas” – akapit 2:
+(np. Pracujemy w małych grupach, dbamy o relacje i jasne cele, a zajęcia łączą praktyczną naukę języka z uważnością na potrzeby uczestników.)
+
+## Oferta (6 bloków – każdy blok ma tytuł, krótki opis i 3 punkty)
+
+1) Tytuł bloku 1:
+(np. Kursy języka niemieckiego)
+Opis bloku 1:
+(np. Małe grupy lub praca indywidualna – od poziomu A1 do C1, online i stacjonarnie.)
+Punkty bloku 1 (3):
+- (np. Program dopasowany do tempa i celów)
+- (np. Regularne powtórki i praktyczne ćwiczenia)
+- (np. Wsparcie w mówieniu i pisaniu)
+
+2) Tytuł bloku 2:
+(np. Konwersacje)
+Opis bloku 2:
+(np. Swobodne rozmowy prowadzone tak, aby przełamać barierę i zbudować pewność siebie.)
+Punkty bloku 2 (3):
+- (np. Tematy z życia i pracy)
+- (np. Korekta na bieżąco, bez presji)
+- (np. Mini-zadania utrwalające)
+
+3) Tytuł bloku 3:
+(np. Rozwój osobisty i duchowy)
+Opis bloku 3:
+(np. Spotkania wspierające odnalezienie kierunku, spokoju i wewnętrznej równowagi.)
+Punkty bloku 3 (3):
+- (np. Praca z celem i motywacją)
+- (np. Ćwiczenia uważności i oddechu)
+- (np. Wzmacnianie pewności siebie)
+
+4) Tytuł bloku 4:
+(np. Przestrzeń dla kobiet)
+Opis bloku 4:
+(np. Kameralne spotkania, kręgi kobiet i rozmowy budujące relacje w bezpiecznej atmosferze.)
+Punkty bloku 4 (3):
+- (np. Tematy rozwojowe i emocjonalne)
+- (np. Wymiana doświadczeń i wsparcie)
+- (np. Budowanie sieci kontaktów)
+
+5) Tytuł bloku 5:
+(np. Coaching i mentoring)
+Opis bloku 5:
+(np. Indywidualne wsparcie w realizacji celów zawodowych i osobistych.)
+Punkty bloku 5 (3):
+- (np. Plan działania krok po kroku)
+- (np. Regularne spotkania i feedback)
+- (np. Praca z blokadami i zmianą)
+
+6) Tytuł bloku 6:
+(np. Techniki relaksacyjne i taniec)
+Opis bloku 6:
+(np. Ćwiczenia i ruch, które pomagają odzyskać spokój, energię i kontakt z ciałem.)
+Punkty bloku 6 (3):
+- (np. Proste rytuały na co dzień)
+- (np. Relaks przy muzyce i oddechu)
+- (np. Uważny, swobodny ruch)
+
+## Kontakt
+Email kontaktowy: (np. muster@muster.pl)
+Telefon: (np. +49 000 000 000)
+Link do Facebooka: (np. https://facebook.com/...)
+Link do WhatsApp: (np. https://wa.me/49123456789)
+
+## Impressum (dane przykładowe)
+Nazwa podmiotu / osoba odpowiedzialna: (np. Muster Beispiel)
+Ulica i numer: (np. Musterstraße 10)
+Kod i miejscowość: (np. 12345 Musterstadt)
+Kraj: (np. Deutschland)
+Forma prawna: (np. Freiberufler)
+Steuernummer: (np. 00/000/00000)
+
+Treść o VAT (§19 UStG):
+(np. Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung).)
+
+Haftungsausschluss:
+(np. Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen wir jedoch keine Gewähr.)
+
+Haftung für Links:
+(np. Diese Website enthält ggf. Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte wird keine Gewähr übernommen.)
+
+Urheberrecht:
+(np. Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.)
+
+Datenschutz:
+(np. Diese Website speichert keine personenbezogenen Daten. Bei Kontaktaufnahme per E-Mail werden die übermittelten Daten ausschließlich zur Bearbeitung der Anfrage verwendet.)
+
+## Opcjonalnie (wersja DE)
+Hasło DE (H1): (np. Dein Raum für Sprache und persönliche Entwicklung)
+Opis główny DE: (np. Deutschkurse auf allen Niveaus, Konversation, Coaching und Mentoring.)
+Opis „O nas” DE – akapit 1: (np. Wir schaffen einen sicheren und unterstützenden Raum für Menschen, die ihre Deutschkenntnisse, ihr Selbstvertrauen und ihre Kommunikationskompetenzen entwickeln möchten.)
+Opis „O nas” DE – akapit 2: (np. Wir arbeiten in kleinen Gruppen, legen Wert auf Beziehungen und klare Ziele und verbinden praxisnahes Lernen mit Achtsamkeit für individuelle Bedürfnisse.)
+
+Bloki oferty DE (6): analogicznie do PL — tytuł, opis, 3 punkty dla każdego bloku.

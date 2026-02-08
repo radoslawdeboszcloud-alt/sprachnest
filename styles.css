@@ -107,6 +107,26 @@ body {
   padding-top: 0.25rem;
 }
 
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #fff;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 2px;
+  background: var(--green-dark);
+  border-radius: 2px;
+}
+
 .menu {
   display: flex;
   gap: 1rem;
@@ -376,9 +396,25 @@ h2 {
     justify-content: space-between;
   }
 
+  .menu-toggle {
+    display: flex;
+  }
+
   .menu {
-    gap: 0.8rem;
-    flex-wrap: wrap;
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+    padding: 0.6rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 24px rgba(15, 95, 92, 0.12);
+  }
+
+  .menu.menu-open {
+    display: flex;
   }
 
   .hero-content {

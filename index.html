@@ -8,6 +8,8 @@
       name="description"
       content="Sprachnest und mehr – kursy języka niemieckiego, konwersacje, coaching i rozwój osobisty."
     />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +28,12 @@
         </a>
 
         <div class="nav-right">
-          <div class="menu">
+          <button class="menu-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="menu" id="mainMenu">
             <a href="#o-nas" data-pl="O nas" data-de="Über uns">O nas</a>
             <a href="#oferta" data-pl="Oferta" data-de="Angebot">Oferta</a>
             <a href="#kontakt" data-pl="Kontakt" data-de="Kontakt">Kontakt</a>
@@ -247,6 +254,8 @@
 
       const langButtons = document.querySelectorAll('.lang-btn');
       const translatable = document.querySelectorAll('[data-pl][data-de]');
+      const menuToggle = document.querySelector('.menu-toggle');
+      const mainMenu = document.getElementById('mainMenu');
 
       function setLanguage(lang) {
         document.documentElement.lang = lang;
@@ -262,6 +271,20 @@
       langButtons.forEach((button) => {
         button.addEventListener('click', () => setLanguage(button.dataset.lang));
       });
+
+      if (menuToggle && mainMenu) {
+        menuToggle.addEventListener('click', () => {
+          const isOpen = mainMenu.classList.toggle('menu-open');
+          menuToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        mainMenu.querySelectorAll('a').forEach((link) => {
+          link.addEventListener('click', () => {
+            mainMenu.classList.remove('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
     </script>
   </body>
 </html>

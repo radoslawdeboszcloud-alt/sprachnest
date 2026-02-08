@@ -316,6 +316,12 @@ h2 {
   gap: 1rem;
 }
 
+@media (max-width: 900px) {
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .offer-tile {
   background: var(--surface);
   border: 1px solid var(--border);

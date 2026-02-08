@@ -200,6 +200,15 @@ h1 {
   scroll-margin-top: 170px;
 }
 
+#o-nas,
+#oferta {
+  scroll-margin-top: 175px;
+}
+
+#impressum {
+  scroll-margin-top: 195px;
+}
+
 h2 {
   font-size: clamp(1.45rem, 3vw, 2.1rem);
   color: var(--green-dark);
@@ -312,10 +321,21 @@ h2 {
   color: var(--green-dark);
   font-weight: 600;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0;
 }
 
 .contact-link:hover {
   text-decoration: underline;
+}
+
+.facebook-img {
+  display: block;
+  width: 220px;
+  height: auto;
+  transform: translateX(-10px);
 }
 
 .impressum {
